@@ -24,10 +24,30 @@ BEGIN_RCPP
     return R_NilValue;
 END_RCPP
 }
+// angleTest
+void angleTest();
+RcppExport SEXP _s2Test_angleTest() {
+BEGIN_RCPP
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    angleTest();
+    return R_NilValue;
+END_RCPP
+}
+// latLonTest
+void latLonTest();
+RcppExport SEXP _s2Test_latLonTest() {
+BEGIN_RCPP
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    latLonTest();
+    return R_NilValue;
+END_RCPP
+}
 
 static const R_CallMethodDef CallEntries[] = {
     {"_s2Test_rcpp_hello_world", (DL_FUNC) &_s2Test_rcpp_hello_world, 0},
     {"_s2Test_pointTest", (DL_FUNC) &_s2Test_pointTest, 0},
+    {"_s2Test_angleTest", (DL_FUNC) &_s2Test_angleTest, 0},
+    {"_s2Test_latLonTest", (DL_FUNC) &_s2Test_latLonTest, 0},
     {NULL, NULL, 0}
 };
 

@@ -9,3 +9,11 @@ pointTest <- function() {
     invisible(.Call('_s2Test_pointTest', PACKAGE = 's2Test'))
 }
 
+angleTest <- function() {
+    invisible(.Call('_s2Test_angleTest', PACKAGE = 's2Test'))
+}
+
+latLonTest <- function() {
+    invisible(.Call('_s2Test_latLonTest', PACKAGE = 's2Test'))
+}
+
