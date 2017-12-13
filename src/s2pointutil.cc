@@ -32,11 +32,11 @@ bool IsUnitLength(const S2Point& p) {
   return fabs(p.Norm2() - 1) <= 5 * DBL_EPSILON;  // About 1.11e-15
 }
 
-/*
+
 bool ApproxEquals(const S2Point& a, const S2Point& b, S1Angle max_error) {
   return S1Angle(a, b) <= max_error;
 }
-*/
+
 
 S2Point Ortho(const S2Point& a) {
 #ifdef S2_TEST_DEGENERACIES
