@@ -5,3 +5,7 @@ rcpp_hello_world <- function() {
     .Call('_s2Test_rcpp_hello_world', PACKAGE = 's2Test')
 }
 
+pointTest <- function() {
+    invisible(.Call('_s2Test_pointTest', PACKAGE = 's2Test'))
+}
+

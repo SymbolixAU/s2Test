@@ -15,9 +15,19 @@ BEGIN_RCPP
     return rcpp_result_gen;
 END_RCPP
 }
+// pointTest
+void pointTest();
+RcppExport SEXP _s2Test_pointTest() {
+BEGIN_RCPP
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    pointTest();
+    return R_NilValue;
+END_RCPP
+}
 
 static const R_CallMethodDef CallEntries[] = {
     {"_s2Test_rcpp_hello_world", (DL_FUNC) &_s2Test_rcpp_hello_world, 0},
+    {"_s2Test_pointTest", (DL_FUNC) &_s2Test_pointTest, 0},
     {NULL, NULL, 0}
 };
 

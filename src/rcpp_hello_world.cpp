@@ -2,6 +2,9 @@
 #include <Rcpp.h>
 using namespace Rcpp;
 
+#include "s2/s2point.h"
+#include "s2/s2pointutil.h"
+
 // [[Rcpp::export]]
 List rcpp_hello_world() {
 
@@ -11,3 +14,21 @@ List rcpp_hello_world() {
 
     return z ;
 }
+
+
+// [[Rcpp::export]]
+void pointTest() {
+	
+	S2Point a(1, 1, 1);
+	S2Point b(1, 2, 1);
+	S2Point c(1, 1, 2);
+	
+	bool test;
+	
+	test = S2::SimpleCCW(a, b, c);
+	
+	Rcpp::Rcout << "test: " << test << std::endl;
+	
+}
+
+
