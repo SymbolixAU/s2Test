@@ -1,0 +1,317 @@
+[
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/Users/david/Documents/github/s2Test/s2Test/inst/include/s2latlng.h",
+                "kind" : 2,
+                "line" : 40,
+                "name" : "S2LatLng",
+                "parent_name" : "",
+                "usr" : "c:@C@S2LatLng"
+            },
+            {
+                "column" : 11,
+                "file" : "/Users/david/Documents/github/s2Test/s2Test/inst/include/s2latlng.h",
+                "kind" : 7,
+                "line" : 76,
+                "name" : "lat",
+                "parent_name" : "S2LatLng",
+                "usr" : "c:@C@S2LatLng@F@lat#1"
+            },
+            {
+                "column" : 11,
+                "file" : "/Users/david/Documents/github/s2Test/s2Test/inst/include/s2latlng.h",
+                "kind" : 7,
+                "line" : 77,
+                "name" : "lng",
+                "parent_name" : "S2LatLng",
+                "usr" : "c:@C@S2LatLng@F@lng#1"
+            },
+            {
+                "column" : 18,
+                "file" : "/Users/david/Documents/github/s2Test/s2Test/inst/include/s2latlng.h",
+                "kind" : 7,
+                "line" : 78,
+                "name" : "coords",
+                "parent_name" : "S2LatLng",
+                "usr" : "c:@C@S2LatLng@F@coords#1"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/david/Documents/github/s2Test/s2Test/inst/include/s2latlng.h",
+                "kind" : 7,
+                "line" : 119,
+                "name" : "operator==(const S2LatLng &)",
+                "parent_name" : "S2LatLng",
+                "usr" : "c:@C@S2LatLng@F@operator==#&1$@C@S2LatLng#1"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/david/Documents/github/s2Test/s2Test/inst/include/s2latlng.h",
+                "kind" : 7,
+                "line" : 120,
+                "name" : "operator!=(const S2LatLng &)",
+                "parent_name" : "S2LatLng",
+                "usr" : "c:@C@S2LatLng@F@operator!=#&1$@C@S2LatLng#1"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/david/Documents/github/s2Test/s2Test/inst/include/s2latlng.h",
+                "kind" : 7,
+                "line" : 121,
+                "name" : "operator<(const S2LatLng &)",
+                "parent_name" : "S2LatLng",
+                "usr" : "c:@C@S2LatLng@F@operator<#&1$@C@S2LatLng#1"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/david/Documents/github/s2Test/s2Test/inst/include/s2latlng.h",
+                "kind" : 7,
+                "line" : 122,
+                "name" : "operator>(const S2LatLng &)",
+                "parent_name" : "S2LatLng",
+                "usr" : "c:@C@S2LatLng@F@operator>#&1$@C@S2LatLng#1"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/david/Documents/github/s2Test/s2Test/inst/include/s2latlng.h",
+                "kind" : 7,
+                "line" : 123,
+                "name" : "operator<=(const S2LatLng &)",
+                "parent_name" : "S2LatLng",
+                "usr" : "c:@C@S2LatLng@F@operator<=#&1$@C@S2LatLng#1"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/david/Documents/github/s2Test/s2Test/inst/include/s2latlng.h",
+                "kind" : 7,
+                "line" : 124,
+                "name" : "operator>=(const S2LatLng &)",
+                "parent_name" : "S2LatLng",
+                "usr" : "c:@C@S2LatLng@F@operator>=#&1$@C@S2LatLng#1"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/david/Documents/github/s2Test/s2Test/inst/include/s2latlng.h",
+                "kind" : 7,
+                "line" : 126,
+                "name" : "ApproxEquals(const S2LatLng &, int)",
+                "parent_name" : "S2LatLng",
+                "usr" : "c:@C@S2LatLng@F@ApproxEquals#&1$@C@S2LatLng#I#1"
+            },
+            {
+                "column" : 27,
+                "file" : "/Users/david/Documents/github/s2Test/s2Test/inst/include/s2latlng.h",
+                "kind" : 7,
+                "line" : 156,
+                "name" : "FromRadians(double, double)",
+                "parent_name" : "S2LatLng",
+                "usr" : "c:@C@S2LatLng@F@FromRadians#d#d#S"
+            },
+            {
+                "column" : 27,
+                "file" : "/Users/david/Documents/github/s2Test/s2Test/inst/include/s2latlng.h",
+                "kind" : 7,
+                "line" : 160,
+                "name" : "FromDegrees(double, double)",
+                "parent_name" : "S2LatLng",
+                "usr" : "c:@C@S2LatLng@F@FromDegrees#d#d#S"
+            },
+            {
+                "column" : 27,
+                "file" : "/Users/david/Documents/github/s2Test/s2Test/inst/include/s2latlng.h",
+                "kind" : 7,
+                "line" : 164,
+                "name" : "FromE5(int, int)",
+                "parent_name" : "S2LatLng",
+                "usr" : "c:@C@S2LatLng@F@FromE5#I#I#"
+            },
+            {
+                "column" : 27,
+                "file" : "/Users/david/Documents/github/s2Test/s2Test/inst/include/s2latlng.h",
+                "kind" : 7,
+                "line" : 168,
+                "name" : "FromE6(int, int)",
+                "parent_name" : "S2LatLng",
+                "usr" : "c:@C@S2LatLng@F@FromE6#I#I#"
+            },
+            {
+                "column" : 27,
+                "file" : "/Users/david/Documents/github/s2Test/s2Test/inst/include/s2latlng.h",
+                "kind" : 7,
+                "line" : 172,
+                "name" : "FromE7(int, int)",
+                "parent_name" : "S2LatLng",
+                "usr" : "c:@C@S2LatLng@F@FromE7#I#I#"
+            },
+            {
+                "column" : 27,
+                "file" : "/Users/david/Documents/github/s2Test/s2Test/inst/include/s2latlng.h",
+                "kind" : 7,
+                "line" : 176,
+                "name" : "FromUnsignedE6(int, int)",
+                "parent_name" : "S2LatLng",
+                "usr" : "c:@C@S2LatLng@F@FromUnsignedE6#I#I#"
+            },
+            {
+                "column" : 27,
+                "file" : "/Users/david/Documents/github/s2Test/s2Test/inst/include/s2latlng.h",
+                "kind" : 7,
+                "line" : 180,
+                "name" : "FromUnsignedE7(int, int)",
+                "parent_name" : "S2LatLng",
+                "usr" : "c:@C@S2LatLng@F@FromUnsignedE7#I#I#"
+            },
+            {
+                "column" : 27,
+                "file" : "/Users/david/Documents/github/s2Test/s2Test/inst/include/s2latlng.h",
+                "kind" : 7,
+                "line" : 184,
+                "name" : "Invalid",
+                "parent_name" : "S2LatLng",
+                "usr" : "c:@C@S2LatLng@F@Invalid#S"
+            },
+            {
+                "column" : 26,
+                "file" : "/Users/david/Documents/github/s2Test/s2Test/inst/include/s2latlng.h",
+                "kind" : 7,
+                "line" : 189,
+                "name" : "Latitude(const int &)",
+                "parent_name" : "S2LatLng",
+                "usr" : "c:@C@S2LatLng@F@Latitude#&1I#"
+            },
+            {
+                "column" : 26,
+                "file" : "/Users/david/Documents/github/s2Test/s2Test/inst/include/s2latlng.h",
+                "kind" : 7,
+                "line" : 195,
+                "name" : "Longitude(const int &)",
+                "parent_name" : "S2LatLng",
+                "usr" : "c:@C@S2LatLng@F@Longitude#&1I#"
+            },
+            {
+                "column" : 23,
+                "file" : "/Users/david/Documents/github/s2Test/s2Test/inst/include/s2latlng.h",
+                "kind" : 7,
+                "line" : 200,
+                "name" : "is_valid",
+                "parent_name" : "S2LatLng",
+                "usr" : "c:@C@S2LatLng@F@is_valid#1"
+            },
+            {
+                "column" : 17,
+                "file" : "/Users/david/Documents/github/s2Test/s2Test/inst/include/s2latlng.h",
+                "kind" : 6,
+                "line" : 209,
+                "name" : "operator+(const S2LatLng &, const S2LatLng &)",
+                "parent_name" : "",
+                "usr" : "c:@F@operator+#&1$@C@S2LatLng#S0_#"
+            },
+            {
+                "column" : 17,
+                "file" : "/Users/david/Documents/github/s2Test/s2Test/inst/include/s2latlng.h",
+                "kind" : 6,
+                "line" : 213,
+                "name" : "operator-(const S2LatLng &, const S2LatLng &)",
+                "parent_name" : "",
+                "usr" : "c:@F@operator-#&1$@C@S2LatLng#S0_#"
+            },
+            {
+                "column" : 17,
+                "file" : "/Users/david/Documents/github/s2Test/s2Test/inst/include/s2latlng.h",
+                "kind" : 6,
+                "line" : 217,
+                "name" : "operator*(double, const S2LatLng &)",
+                "parent_name" : "",
+                "usr" : "c:@F@operator*#d#&1$@C@S2LatLng#"
+            },
+            {
+                "column" : 17,
+                "file" : "/Users/david/Documents/github/s2Test/s2Test/inst/include/s2latlng.h",
+                "kind" : 6,
+                "line" : 221,
+                "name" : "operator*(const S2LatLng &, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@operator*#&1$@C@S2LatLng#d#"
+            }
+        ],
+        "file" : "/Users/david/Documents/github/s2Test/s2Test/inst/include/s2latlng.h",
+        "file_last_write" : 1512954404
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "/Users/david/Documents/github/s2Test/s2Test/src/rcpp_hello_world.cpp",
+                "kind" : 6,
+                "line" : 6,
+                "name" : "rcpp_hello_world",
+                "parent_name" : "",
+                "usr" : "c:@F@rcpp_hello_world#"
+            }
+        ],
+        "file" : "/Users/david/Documents/github/s2Test/s2Test/src/rcpp_hello_world.cpp",
+        "file_last_write" : 1513136631
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 20,
+                "file" : "/Users/david/Documents/github/s2Test/s2Test/src/s2latlng.cc",
+                "kind" : 7,
+                "line" : 31,
+                "name" : "Normalized",
+                "parent_name" : "S2LatLng",
+                "usr" : "c:@C@S2LatLng@F@Normalized#1"
+            },
+            {
+                "column" : 19,
+                "file" : "/Users/david/Documents/github/s2Test/s2Test/src/s2latlng.cc",
+                "kind" : 7,
+                "line" : 38,
+                "name" : "ToPoint",
+                "parent_name" : "S2LatLng",
+                "usr" : "c:@C@S2LatLng@F@ToPoint#1"
+            },
+            {
+                "column" : 19,
+                "file" : "/Users/david/Documents/github/s2Test/s2Test/src/s2latlng.cc",
+                "kind" : 7,
+                "line" : 54,
+                "name" : "GetDistance(const S2LatLng &)",
+                "parent_name" : "S2LatLng",
+                "usr" : "c:@C@S2LatLng@F@GetDistance#&1$@C@S2LatLng#1"
+            },
+            {
+                "column" : 18,
+                "file" : "/Users/david/Documents/github/s2Test/s2Test/src/s2latlng.cc",
+                "kind" : 7,
+                "line" : 81,
+                "name" : "ToStringInDegrees",
+                "parent_name" : "S2LatLng",
+                "usr" : "c:@C@S2LatLng@F@ToStringInDegrees#1"
+            },
+            {
+                "column" : 16,
+                "file" : "/Users/david/Documents/github/s2Test/s2Test/src/s2latlng.cc",
+                "kind" : 7,
+                "line" : 86,
+                "name" : "ToStringInDegrees(int *)",
+                "parent_name" : "S2LatLng",
+                "usr" : "c:@C@S2LatLng@F@ToStringInDegrees#*I#1"
+            },
+            {
+                "column" : 15,
+                "file" : "/Users/david/Documents/github/s2Test/s2Test/src/s2latlng.cc",
+                "kind" : 6,
+                "line" : 90,
+                "name" : "operator<<(std::ostream &, const S2LatLng &)",
+                "parent_name" : "",
+                "usr" : "c:@F@operator<<#&$@N@std@N@__1@C@basic_ostream>#C#$@N@std@N@__1@S@char_traits>#C#&1$@C@S2LatLng#"
+            }
+        ],
+        "file" : "/Users/david/Documents/github/s2Test/s2Test/src/s2latlng.cc",
+        "file_last_write" : 1513137270
+    }
+]
