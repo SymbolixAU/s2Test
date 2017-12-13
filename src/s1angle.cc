@@ -21,7 +21,7 @@
 #include <cstdio>
 #include <ostream>
 
-//#include "s2/s2latlng.h"
+#include "s2/s2latlng.h"
 
 S1Angle::S1Angle(const S2Point& x, const S2Point& y)
     : radians_(x.Angle(y)) {
