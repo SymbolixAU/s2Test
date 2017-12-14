@@ -3,4 +3,4 @@ CXX_STD = CXX11
 
 
 
-PKG_CXXFLAGS = -I../inst/include -I../inst/include/s2 -I../inst/include/s2/third_party/base
+PKG_CXXFLAGS = -I../inst/include -I../inst/include/s2 
