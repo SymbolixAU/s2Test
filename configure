@@ -83,7 +83,7 @@ if [ $? -ne 0 ]; then
 fi
 
 # Write to Makevars
-#sed -e "s|@cxxflags@|$PKG_CXXFLAGS|" -e "s|@libs@|$PKG_LIBS|" src/Makevars.in > src/Makevars
+sed -e "s|@cxxflags@|$PKG_CXXFLAGS|" -e "s|@libs@|$PKG_LIBS|" src/Makevars.in > src/Makevars
 
 # Success
 exit 0
