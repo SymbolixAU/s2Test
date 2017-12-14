@@ -67,10 +67,7 @@ void latLonTest() {
 	ll2.FromDegrees(-30.0, -51.14);
 	
 	ll2.ToStringInDegrees(&str);
-	
-	//ll2.GetDistance(ll);
-	
-	//ll2.ToPoint();
+
 	
 }
 
