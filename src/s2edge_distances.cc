@@ -304,7 +304,8 @@ std::pair<S2Point, S2Point> GetEdgePairClosestPoints(
     case A1: return std::make_pair(a1, Project(a1, b0, b1));
     case B0: return std::make_pair(Project(b0, a0, a1), b0);
     case B1: return std::make_pair(Project(b1, a0, a1), b1);
-  default: "";
+  default: 
+  	Rcpp::stop("Unreached error in s2edge_distance.cc");
     //default: LOG(FATAL) << "Unreached (to suppress Android compiler warning)";
   }
 }

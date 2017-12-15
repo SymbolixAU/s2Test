@@ -605,7 +605,7 @@ GeneralFormatConverter<EndianClass, ValueType>::FromHost(ValueType v) {
       return EndianClass::FromHost64(static_cast<uint64>(v));
       break;
     default:
-    	"";
+    	Rcpp::stop("unexpected value size");
       //LOG(FATAL) << "Unexpected value size: " << sizeof(ValueType);
   }
 }
@@ -631,7 +631,7 @@ GeneralFormatConverter<EndianClass, ValueType>::ToHost(ValueType v) {
       return EndianClass::ToHost64(static_cast<uint64>(v));
       break;
     default:
-    	"";
+    	Rcpp::stop("unexpected value size");
       //LOG(FATAL) << "Unexpected value size: " << sizeof(ValueType);
   }
 }
