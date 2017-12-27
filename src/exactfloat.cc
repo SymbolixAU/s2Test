@@ -104,7 +104,8 @@ static int BN_ext_count_low_zero_bits(const BIGNUM* bn) {
 }
 
 ExactFloat::ExactFloat(double v) {
-  BN_init(&bn_);
+  //BN_init(&bn_);
+  BN_new(&bn_);
   sign_ = std::signbit(v) ? -1 : 1;
   if (std::isnan(v)) {
     set_nan();
@@ -127,7 +128,8 @@ ExactFloat::ExactFloat(double v) {
 }
 
 ExactFloat::ExactFloat(int v) {
-  BN_init(&bn_);
+  //BN_init(&bn_);
+	BN_new(&bn_);
   sign_ = (v >= 0) ? 1 : -1;
   // Note that this works even for INT_MIN because the parameter type for
   // BN_set_word() is unsigned.
@@ -139,7 +141,8 @@ ExactFloat::ExactFloat(int v) {
 ExactFloat::ExactFloat(const ExactFloat& b)
     : sign_(b.sign_),
       bn_exp_(b.bn_exp_) {
-  BN_init(&bn_);
+  //BN_init(&bn_);
+	BN_new(&bn_);
   BN_copy(&bn_, &b.bn_);
 }
 

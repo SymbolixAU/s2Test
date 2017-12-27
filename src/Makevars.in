@@ -1,9 +1,7 @@
-$(info The compilation root directory is: $(ROOT_DIR))                          
-$(info The name of the shared library to be created is: $(SHLIB))     
 
 ## We want C++11 
 CXX_STD = CXX11
 
 PKG_CPPFLAGS = -I../inst/include -I../inst/include/s2
 PKG_LIBS = @libs@
-PKG_CXXFLAGS = @cxxflags@ -pthread
+# PKG_CXXFLAGS = @cxxflags@ -pthread

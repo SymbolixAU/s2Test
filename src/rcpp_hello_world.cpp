@@ -2,9 +2,10 @@
 #include <Rcpp.h>
 using namespace Rcpp;
 
-#include "s2/s2point.h"
-#include "s2/s2pointutil.h"
-#include "s2/s2latlng.h"
+
+//#include "s2/s2point.h"
+//#include "s2/s2pointutil.h"
+//#include "s2/s2latlng.h"
 
 // [[Rcpp::export]]
 List rcpp_hello_world() {
@@ -16,6 +17,8 @@ List rcpp_hello_world() {
     return z ;
 }
 
+
+/*
 
 // [[Rcpp::export]]
 void pointTest() {
@@ -70,6 +73,6 @@ void latLonTest() {
 
 	
 }
-
+*/
 
 

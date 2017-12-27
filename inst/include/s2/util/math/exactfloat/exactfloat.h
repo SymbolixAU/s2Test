@@ -575,7 +575,8 @@ class ExactFloat {
 // Implementation details follow:
 
 inline ExactFloat::ExactFloat() : sign_(1), bn_exp_(kExpZero) {
-  BN_init(&bn_);
+  //BN_init(&bn_);
+	BN_new(&bn_);
 }
 
 inline ExactFloat::~ExactFloat() {

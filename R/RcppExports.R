@@ -5,15 +5,3 @@ rcpp_hello_world <- function() {
     .Call('_s2Test_rcpp_hello_world', PACKAGE = 's2Test')
 }
 
-pointTest <- function() {
-    invisible(.Call('_s2Test_pointTest', PACKAGE = 's2Test'))
-}
-
-angleTest <- function() {
-    invisible(.Call('_s2Test_angleTest', PACKAGE = 's2Test'))
-}
-
-latLonTest <- function() {
-    invisible(.Call('_s2Test_latLonTest', PACKAGE = 's2Test'))
-}
-
