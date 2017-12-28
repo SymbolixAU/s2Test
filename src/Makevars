@@ -1,5 +1,8 @@
+
 ## We want C++11 
 CXX_STD = CXX11
 
-PKG_CXXFLAGS = -I../inst/include -I../inst/include/s2 -I../windows/openssl-1.0.2d/include
-PKG_LIBS=-L../windows/openssl-1.0.2d/lib${R_ARCH} -lssl -lcrypto
+PKG_CPPFLAGS = -I../inst/include -I../inst/include/s2
+# PKG_LIBS = -L/usr/local/lib -libssl -libcrypto
+# PKG_LIBS = -L/home/dave/openssl-1.1.0f -libssl -libcrypto
+#PKG_CXXFLAGS = -I/usr/local/include -pthread 

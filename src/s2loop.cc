@@ -26,7 +26,7 @@
 #include <utility>
 #include <vector>
 
-//#include <gflags/gflags.h>
+#include <gflags/gflags.h>
 //#include <glog/logging.h>
 
 #include "s2/extra/logging.h"
@@ -78,6 +78,7 @@ DEFINE_bool(
     "significant amounts of memory and time when geometry is constructed but "
     "never queried, for example when loops are passed directly to S2Polygon, "
     "or when geometry is being converted from one format to another.");
+
 
 // The maximum number of vertices we'll allow when decoding a loop.
 // The default value of 50 million is about 30x bigger than the number of
